@@ -1,8 +1,10 @@
-JMS
-===
+EJB-3.2
+=======
+  
+Enterprise Java Beans 3.2:
+here will be a few examples of projects, how to start working with ejb 3.2, jboss, maven
 
-Simple JMS
-1)configure EJB project
-2)build
-3)deploy
-4)JMS
+1)configure environment
+2)simple app
+3)JMS
+4)cron/timer
