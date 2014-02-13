@@ -13,3 +13,4 @@ http://theopentutorials.com/examples/java-ee/ejb3/how-to-create-a-ejb-3-x-projec
 3)deploy
 
 4)run test client
+https://docs.jboss.org/author/display/AS71/EJB+invocations+from+a+remote+client+using+JNDI
