@@ -11,3 +11,5 @@ http://theopentutorials.com/examples/java-ee/ejb3/how-to-create-a-ejb-3-x-projec
 2)build
 
 3)deploy
+
+4)run test client
