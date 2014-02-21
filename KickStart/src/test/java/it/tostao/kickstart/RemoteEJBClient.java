@@ -9,9 +9,12 @@ import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 
+import org.junit.Test;
+
 public class RemoteEJBClient {
 
-    public static void main(String[] args) throws Exception {
+    @Test
+    public void run() throws Exception {
         testRemoteEJB();
 
     }
@@ -34,12 +37,12 @@ public class RemoteEJBClient {
         final String distinctName = "";
         final String beanName = HelloWorld2Remote.class.getSimpleName();
 
-        final String viewClassName = SampleBeanRemote.class.getName();
+        final String viewClassName = HelloWorld.class.getName();
         System.out.println("Looking EJB via JNDI ");
         System.out.println("ejb:" + appName + "/" + moduleName + "/" + distinctName + "/" + beanName + "!"
                 + viewClassName);
 
-        return (SampleBeanRemote) context.lookup("ejb:" + appName + "/" + moduleName + "/" + distinctName + "/"
+        return (HelloWorld) context.lookup("ejb:" + appName + "/" + moduleName + "/" + distinctName + "/"
                 + beanName + "!" + viewClassName);
 
     }
