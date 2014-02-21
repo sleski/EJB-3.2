@@ -11,10 +11,10 @@ import javax.ejb.Stateless;
 public class HelloWorld2 implements HelloWorld2Remote {
 
     /**
-     * Default constructor. 
+     * Default constructor.
      */
     public HelloWorld2() {
-        // TODO Auto-generated constructor stub
+
     }
 
 }
